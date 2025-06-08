@@ -90,6 +90,45 @@ Goal: Experience how computational effort increases with difficulty
 Ans:Read Practical_part_Answer_2.py
 Output: ![Screenshot (50)](https://github.com/user-attachments/assets/b8663cc9-3d50-4610-a06d-3d266704eed4)
 
-3. 
+3. Consensus Mechanism Simulation
+Objective: Simulate and compare PoW, PoS, and DPoS logic in code.
+ Task:
+Create mock objects for 3 validators:
+
+miner = {power: random value} for PoW
+
+staker = {stake: random value} for PoS
+
+voters = [3 mock accounts voting] for DPoS
+
+ Simulate:
+For PoW: Select validator with highest power
+
+For PoS: Select validator with highest stake
+
+For DPoS: Randomly choose a delegate based on most votes
+
+ Output:
+Print selected validator and consensus method used
+
+Include a console.log explanation of the selection logic
+
+ Goal: Compare decision-making in various consensus mechanisms
+
+Submission Instructions:
+Submit a GitHub repo or folder with:
+
+blockchain_simulation.js or .py (3 linked blocks)
+
+mining_simulation.js or .py (nonce task)
+
+consensus_demo.js or .py (PoW, PoS, DPoS logic)
+
+Include brief comments and console logs explaining your output
+
+Ans: Read Practical_Part_Answer_3.py
+Output:![Screenshot (51)](https://github.com/user-attachments/assets/5465db01-50cb-4062-ace7-0b0c92d50168)
+
+
 
 
