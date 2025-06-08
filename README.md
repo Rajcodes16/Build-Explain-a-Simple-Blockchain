@@ -67,4 +67,29 @@ Observe how all following blocks become invalid unless hashes are recomputed.
 
  Goal: Understand how tampering one block affects the entire chain.
 
-Ans: 
+Ans: Read Practical_part_Answer_1.py
+Output: ![Screenshot (48)](https://github.com/user-attachments/assets/b255b881-d3df-4d57-9cd2-7a863aa54536)
+
+
+2. Nonce Mining Simulation
+Objective: Simulate Proof-of-Work by mining a block that satisfies a difficulty condition.
+ Task:
+Modify your Block class to include a mineBlock(difficulty) function
+
+Set difficulty (e.g., hash must start with "0000")
+
+In mineBlock(), repeatedly increment the nonce until the hash meets the difficulty condition
+
+ Output:
+Print how many nonce attempts were needed
+
+Measure time taken using a timer
+
+Goal: Experience how computational effort increases with difficulty
+
+Ans:Read Practical_part_Answer_2.py
+Output: ![Screenshot (50)](https://github.com/user-attachments/assets/b8663cc9-3d50-4610-a06d-3d266704eed4)
+
+3. 
+
+
